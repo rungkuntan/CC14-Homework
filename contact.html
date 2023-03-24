@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"/>
+  <link
+   href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    rel="stylesheet"/>
+    <style>
+      html {
+        font-family: 'Sriracha', cursive;
+    }
+      div {
+        width: 30%;
+        border: 1px solid black;
+        text-align: left;
+        border-radius: 7px;
+        padding-left: 30px;
+        overflow: auto;
+      }
+    .yourname, .youremail, select{
+        width: 75%;
+    }
+
+    </style>
+</head>
+<body>
+    <hr>
+    <a href="/index.html">Home</a> |
+    <a href="/education.html">Education</a> |
+    <a href="/work.html">Work Experience</a> |
+    <a href="#">Contact me</a> |
+    <hr>
+    <h1>Contact Me</h1>
+      
+    <div>
+    <p>Enter your info..</p>    
+    <form action="#">
+    <label for="yname">Your name</label><br>
+    <input type="text" name="yname" class="yourname"><br><br>
+    <label for="yemail">Your Email</label><br>
+    <input type="text" name="yemail"class="youremail" ><br><br>
+    
+    <label for="gender">Gender</label><br>
+    <select name="gender" id="gender">
+    <option value="select" disabled selected hidden>Select</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    </select><br><br>
+    <label for="message">Message</label><br>
+    <textarea name="message"  cols="30" rows="10"></textarea><br><br>
+    <input type="submit" value="Submit" style="margin-bottom: 20px;">
+    <input type="submit" value="Close">
+    </form>
+    </div>
+    
+
+
+   
+  
+</body>
+</html>
